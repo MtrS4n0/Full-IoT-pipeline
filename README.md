@@ -1,6 +1,4 @@
-# Full-pipeline
-
-## Final task of full IoT pipeline
+# Full-IoT-pipeline
 
 ### This pipeline sends data from DHT22 sensor to Thingspeak,<br />
 ### where it is collected to node server local host.<br />
@@ -9,6 +7,7 @@
 ### Everytime temperature exceeds 30 °C or is below -10 °C<br />
 ### a message is sent to a Discord server.<br/>
 
+This is a practice project for a virtual IoT device <br />
 This project uses an .env file for the API keys -> "npm install dotenv"<br />
 Create .env file to root directory. -> See example @ .env.example.<br />
 Add .env to gitignore -> "# .gitignore (br) .env"<br />
